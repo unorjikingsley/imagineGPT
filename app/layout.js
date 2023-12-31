@@ -3,11 +3,11 @@ import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-// export const metadata = {
-//   title: 'imagineGPT',
-//   description:
-//     'imagineGPT: Your AI language companion. Powered by OpenAI, it enhances your conversations, content creation, and more!',
-// }
+export const metadata = {
+  title: 'imagineGPT',
+  description:
+    'imagineGPT: Your AI language companion. Powered by OpenAI, it enhances your conversations, content creation, and more!',
+}
 
 export default function RootLayout({ children }) {
   return (
