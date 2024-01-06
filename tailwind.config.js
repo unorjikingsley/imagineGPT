@@ -13,9 +13,11 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
-    daisyui: {
-      darkTheme: 'light', // Set the dark theme to 'light' for a white theme
-    },
   },
   plugins: [require('@tailwindcss/typography'), require('daisyui')],
+
+  daisyui: {
+    darkTheme: 'light',
+    themes: ['winter', 'dracula']
+  },
 }

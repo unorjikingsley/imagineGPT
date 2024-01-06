@@ -3,6 +3,7 @@ import './globals.css'
 import { ClerkProvider } from '@clerk/nextjs';
 
 const inter = Inter({ subsets: ['latin'] })
+import Providers from './providers';
 
 export const metadata = {
   title: 'imagineGPT',
@@ -14,7 +15,11 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+          <Providers>
+            {children}
+          </Providers>
+          </body>
       </html>
     </ClerkProvider>
   )
