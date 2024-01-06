@@ -3,6 +3,7 @@ import './globals.css'
 import { ClerkProvider } from '@clerk/nextjs';
 
 const inter = Inter({ subsets: ['latin'] })
+import Providers from './providers';
 
 export const metadata = {
   title: 'imagineGPT',
