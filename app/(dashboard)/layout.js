@@ -1,4 +1,4 @@
-import Sidebar from "@/component/Sidebar";
+import Sidebar from "@/components/Sidebar";
 import { FaBarsStaggered } from 'react-icons/fa6';
 
 const layout = ({ children }) => {
