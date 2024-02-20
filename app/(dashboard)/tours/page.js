@@ -3,4 +3,5 @@ const ToursPage = () => {
     <div>ToursPage</div>
   )
 }
+
 export default ToursPage
